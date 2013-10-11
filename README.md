@@ -1,16 +1,19 @@
 hipster-party-app
 =================
 
-This app is originally developed for Trulia's Hipster Party August 2013.
-
+I built this app for Trulia's Hipster Party August 2013. The app allows users to register a user name and photo and earn points by meeting other users.
 ![Example Image][1]
 
-[1]:https://github.com/jouting/hipster-party-app/blob/master/Trulia%20Party%20App%20Mock%20-%20Android.png?raw=true
+Feel free to download the source code and modify to suit your needs. The app uses Parse API for the back end, but should be easily modifiable to use other endpoints.
+
+
 
 Developed By
 ============
 
 * Jouting Liao - <joutingliao@gmail.com>
+
+Thanks also to G Richards for help with the Parse Cloud code and for building a matching iOS app.
 
 
 
@@ -31,3 +34,4 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
+[1]:https://github.com/jouting/hipster-party-app/blob/master/Trulia%20Party%20App%20Mock%20-%20Android.png?raw=true
