@@ -1,7 +1,7 @@
 hipster-party-app
 =================
 
-I built this app for Trulia's Hipster Party August 2013. The app allows users to register a user name and photo and earn points by meeting other users.
+I designed and built this app for Trulia's Hipster Party August 2013. The app allows users to register a user name and photo and earn points by meeting other users.
 ![Example Image][1]
 
 Feel free to download the source code and modify to suit your needs. The app uses Parse API for the back end, but should be easily modifiable to use other endpoints.
