@@ -1,0 +1,66 @@
+<resources>
+
+  <style name="AppTheme" parent="@style/Theme.Sherlock.Light">
+    <item name="android:windowContentOverlay">@null</item>
+    <!--defines acitonbar display option, background color and title text style here-->
+    <item name="android:actionBarStyle">@style/HipsterActionBar</item>
+    <item name="actionBarStyle">@style/HipsterActionBar</item>
+`
+    <item name="android:actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow
+    </item>
+    <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow</item>
+    <!-- customize text color on action bar tab -->
+    <!--our app theme is Light but action bar is Dark-->
+    <item name="android:windowBackground">@null</item>
+    <item name="android:actionModeStyle">@style/HipsterActionBar</item>
+    <item name="actionModeStyle">@style/HipsterActionBar</item>
+    <item name="android:buttonStyle">@style/AppButtonStyle</item>
+    <item name="android:textSize">16sp</item>
+  </style>
+
+  <style name="ActivityTheme" parent="@style/AppTheme">
+    <item name="android:actionBarStyle">@style/HipsterActionBar</item>
+    <item name="actionBarStyle">@style/HipsterActionBar</item>
+    <item name="android:logo">@drawable/actionbar_icon</item>
+    <item name="logo">@drawable/actionbar_icon</item>
+    <item name="android:windowBackground">@android:color/white</item>
+    <!-- need to customize for the dropdown item because the pre-ICS will look bad -->
+    <item name="android:windowActionBar">true</item>
+  </style>
+
+  <style name="MainActivityTheme" parent="@style/ActivityTheme">
+    <item name="android:actionBarStyle">@style/MainActionBar</item>
+    <item name="actionBarStyle">@style/MainActionBar</item>
+  </style>
+
+  <style name="HipsterActionBar" parent="Widget.Sherlock.Light.ActionBar">
+    <item name="android:displayOptions">useLogo|showTitle|showHome|showCustom|homeAsUp</item>
+    <item name="displayOptions">useLogo|showTitle|showHome|showCustom|homeAsUp</item>
+    <item name="android:titleTextStyle">@style/TitleTextAppearance</item>
+    <item name="titleTextStyle">@style/TitleTextAppearance</item>
+    <item name="android:subtitleTextStyle">@style/SubTitleTextAppearance</item>
+    <item name="subtitleTextStyle">@style/SubTitleTextAppearance</item>
+  </style>
+
+  <style name="MainActionBar" parent="HipsterActionBar">
+    <item name="android:displayOptions">useLogo|showTitle|showHome|showCustom</item>
+    <item name="displayOptions">useLogo|showTitle|showHome|showCustom</item>
+  </style>
+
+  <style name="AppButtonStyle" parent="android:Widget.Button">
+    <item name="android:background">@drawable/btn_default_main</item>
+    <item name="android:minHeight">48dip</item>
+    <item name="android:minWidth">64dip</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">#ffffffff</item>
+  </style>
+
+  <style name="TitleTextAppearance" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/actionbar_text_color</item>
+  </style>
+
+  <style name="SubTitleTextAppearance" parent="TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+    <item name="android:textColor">#808080</item>
+  </style>
+
+</resources>

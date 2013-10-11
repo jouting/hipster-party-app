@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/menu_score"
+    android:title="@string/menu_score"
+    android:showAsAction="ifRoom"
+    android:actionLayout="@layout/score_text_actionbar"/>
+
+  <item
+    android:id="@+id/menu_leaderboard"
+    android:title="@string/menu_leaderboard"
+    android:icon="@drawable/ic_group"
+    android:showAsAction="ifRoom"/>
+  <item
+    android:id="@+id/menu_refresh"
+    android:title="@string/menu_refresh"
+    android:icon="@drawable/ic_refresh"
+    android:showAsAction="ifRoom"/>
+</menu>

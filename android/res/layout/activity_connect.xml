@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingLeft="@dimen/activity_horizontal_margin"
+  android:paddingRight="@dimen/activity_horizontal_margin"
+  android:paddingTop="@dimen/activity_vertical_margin"
+  android:paddingBottom="@dimen/activity_vertical_margin">
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+      android:layout_height="wrap_content"
+      android:layout_width="@dimen/photo_width"
+      android:layout_gravity="center_horizontal"
+      android:orientation="vertical">
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/connect_text"
+        android:textColor="#808080"
+        android:textSize="18sp"/>
+
+      <RelativeLayout
+        android:layout_height="@dimen/photo_width"
+        android:layout_width="match_parent"
+        android:background="@drawable/photo_frame"
+        android:gravity="center">
+
+        <ImageView
+          android:id="@+id/photo"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="centerCrop"
+          android:src="@drawable/hipster_user"/>
+
+        <TextView
+          android:id="@+id/name"
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          android:layout_alignParentBottom="true"
+          android:gravity="center_horizontal"
+          android:background="#3e8112"
+          android:padding="4dp"
+          android:textColor="@android:color/white"
+          android:textSize="18sp"/>
+
+      </RelativeLayout>
+
+      <EditText
+        android:id="@+id/code"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="numberSigned"
+        android:maxLength="3"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:imeOptions="actionDone"/>
+
+      <Button
+        android:id="@+id/connect"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/connect_btn"/>
+
+      <TextView
+        android:id="@+id/skip"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/skip_label"
+        android:textColor="@color/actionbar_text_color"
+        android:textSize="18sp"/>
+    </LinearLayout>
+  </ScrollView>
+
+  <ProgressBar
+    android:id="@android:id/progress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    style="?android:attr/progressBarStyle"
+    android:visibility="gone"/>
+</RelativeLayout>

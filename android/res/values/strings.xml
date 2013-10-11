@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Hipsters</string>
+  <string name="check_in_text">To get started, make sure you look good</string>
+  <string name="connect_text">To earn points, find this Hipster, and ask for his/her code to connect</string>
+  <string name="check_in_btn">Check In</string>
+  <string name="connect_btn">Connect</string>
+  <string name="menu_leaderboard">Leaderboard</string>
+  <string name="menu_refresh">Refresh</string>
+  <string name="menu_score">Score</string>
+  <string name="parse_application_id">PARSE APP ID</string>
+  <string name="parse_client_key">PARSE CLIENT KEY</string>
+  <string name="enter_code">Enter %s\'s code</string>
+  <string name="skip">Skip %s</string>
+  <string name="check_in_title">Check In</string>
+  <string name="connect_title">Meet Hipster</string>
+  <string name="leaderboard_title">Leaderboard</string>
+  <string name="error_connect_code">Oops, you didn\'t enter the right code for </string>
+  <string name="subtitle_code">Your code: %s</string>
+  <string name="rules_title">Meet Hipsters - Win $100</string>
+  <string name="rules_details">Win $100 cash prize for meeting as many Hipsters as you can.
+
+How to Play: Locate the person in the picture, get their code, and enter it in the app. 20 points when you make a connection. 10 points when you share your code.
+
+Rules 1) Your picture must be of your face so others can find you 2) You must use your real name to claim the cash money.
+
+I played mobile games before it was cool. Have fun.</string>
+  <string name="rules_confirmation">I\'m ready to meet some hipsters.</string>
+  <string name="error_photo_message">Oh no, I can\'t take a photo on my phone.</string>
+  <string name="not_hipster">I\'m not a Hipster</string>
+  <string name="messge_take_photo">Please take a photo of yourself</string>
+  <string name="message_enter_name">Please enter your full name</string>
+  <string name="name_edittext_hint">Enter your full name</string>
+  <string name="take_photo_label">Take Photo</string>
+  <string name="skip_label">Skip</string>
+  <string name="points_abbreviation">pts</string>
+  <string name="points">points</string>
+</resources>
